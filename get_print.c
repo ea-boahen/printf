@@ -23,7 +23,8 @@ int (*get_print(char s))(va_list, flags_t *)
 		{'b', print_binary},
 		{'o', print_octal},/*
 		*{'R', print_rot13},
-		*{'r', print_rev},*/
+		*{'r', print_rev},
+		*/
 		{'S', print_bigS},
 		{'p', print_address} /*,
 		*{'%', print_percent}
