@@ -28,7 +28,7 @@ int print_int(va_list l, flags_t *f)
  * @f: pointer to the struct flags determining
  * if a flag is passed to _printf
  * Return: number of char printed
-*/
+ */
 int print_unsigned(va_list l, flags_t *f)
 {
 	unsigned int u = va_arg(l, unsigned int);
@@ -37,7 +37,6 @@ int print_unsigned(va_list l, flags_t *f)
 	(void)f;
 	return (_puts(str));
 }
-
 
 /**
  * print_number - helper function that loops through
